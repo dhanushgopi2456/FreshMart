@@ -328,7 +328,7 @@ If you want to use cloud MongoDB instead of local:
 
 6. Update `server/.env`:
    ```env
-   MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/groceryapp?retryWrites=true&w=majority
+
    ```
 
 7. Run seeder and start the server as usual
