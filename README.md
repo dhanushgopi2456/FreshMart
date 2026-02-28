@@ -198,19 +198,19 @@ cd "c:\Users\dhanush gopi\OneDrive\Desktop\Grocery app"
 
 ### Step 2: Install backend dependencies
 ```bash
-cd server
+cd Frontend
 npm install
 ```
 
 ### Step 3: Install frontend dependencies
 ```bash
-cd ..\client
+cd ..\Backend
 npm install
 ```
 
 ### Step 4: Seed the database (creates sample data)
 ```bash
-cd ..\server
+cd ..\Backend
 node seeder.js
 ```
 
@@ -239,14 +239,14 @@ Seed complete!
 
 4. **Terminal 1** — Start Backend:
    ```bash
-   cd server
+   cd Backend
    node server.js
    ```
    ✅ You should see: `Server running on port 5000` and `MongoDB Connected: localhost`
 
 5. **Terminal 2** — Start Frontend:
    ```bash
-   cd client
+   cd Frontend
    npx vite
    ```
    ✅ You should see: `VITE ready` with `http://localhost:5173`
@@ -261,13 +261,13 @@ Open **two separate** Command Prompt windows:
 
 **Window 1 — Backend:**
 ```cmd
-cd "c:\Users\dhanush gopi\OneDrive\Desktop\Grocery app\server"
-node server.js
+cd "c:\Users\dhanush gopi\OneDrive\Desktop\Grocery app\Backend"
+node Backend.js
 ```
 
 **Window 2 — Frontend:**
 ```cmd
-cd "c:\Users\dhanush gopi\OneDrive\Desktop\Grocery app\client"
+cd "c:\Users\dhanush gopi\OneDrive\Desktop\Grocery app\Frontend"
 npx vite
 ```
 
@@ -280,12 +280,12 @@ Open browser → `http://localhost:5173`
 **Terminal 1:**
 ```bash
 cd "/c/Users/dhanush gopi/OneDrive/Desktop/Grocery app/server"
-node server.js
+node Backend.js
 ```
 
 **Terminal 2:**
 ```bash
-cd "/c/Users/dhanush gopi/OneDrive/Desktop/Grocery app/client"
+cd "/c/Users/dhanush gopi/OneDrive/Desktop/Grocery app/Frontend"
 npx vite
 ```
 
@@ -345,7 +345,7 @@ If you want to use cloud MongoDB instead of local:
 
 6. Update `server/.env`:
    ```env
-   MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/groceryapp?retryWrites=true&w=majority
+
    ```
 
 7. Run seeder and start the server as usual
