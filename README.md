@@ -6,6 +6,7 @@ A modern grocery shopping platform built with **React + Vite**, **Node.js + Expr
 
 ## 📋 Table of Contents
 
+- [Project Lifecycle](#-project-lifecycle)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
@@ -23,6 +24,22 @@ A modern grocery shopping platform built with **React + Vite**, **Node.js + Expr
 - [API Documentation](#-api-documentation)
 - [Deployment](#-deployment)
 - [Troubleshooting](#-troubleshooting)
+
+---
+
+## 📌 Project Lifecycle
+
+The FreshMart project was developed following a structured **7-phase software development lifecycle**:
+
+| Phase | Name | Description |
+|-------|------|-------------|
+| 1 | **Ideation Phase** | Brainstorming the concept of a full-stack grocery web app, identifying the target audience, and defining the core value proposition. |
+| 2 | **Requirement Analysis** | Gathering functional and non-functional requirements — user authentication, product catalog, cart & checkout, order management, and admin dashboard capabilities. |
+| 3 | **Project Design Phase** | Designing the system architecture (React + Express + MongoDB), UI/UX wireframes, database schema design, and API endpoint planning. |
+| 4 | **Project Planning Phase** | Creating the project timeline, task breakdown, technology stack finalization, and resource allocation for frontend, backend, and database modules. |
+| 5 | **Project Development Phase** | Full-stack implementation — building the React frontend with Vite, Express.js REST API backend, MongoDB data layer, JWT authentication, and admin panel. |
+| 6 | **Project Documentation** | Preparing comprehensive documentation including README, API documentation, database schema references, setup guides, and deployment instructions. |
+| 7 | **Project Demonstration** | Final project showcase demonstrating all features — user registration/login, product browsing, cart management, checkout, order tracking, and admin operations. |
 
 ---
 
